@@ -1,3 +1,6 @@
+# Given an input of the height, width, and grind layout of tiles marked W or L.
+# Determine the number of islands (An island is a tile L which may touch another L asjascent or diagonally).
+
 # grid, width, and height being given through input.
 grid = [
     ["L","W","W","W","W"],
@@ -37,4 +40,4 @@ for y in range(height) :
             islands += 1;
             checkCell(x, y);
 
-print (islands)
+print(islands)
